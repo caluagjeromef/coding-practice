@@ -1,7 +1,7 @@
 ﻿Public Class Login
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If txtbUser.Text = "teacher1" And txtbPass.Text = "admin1" Or txtbUser.Text = "teacher2" And txtbPass.Text = "admin2" Then
+        If txtbUser.Text = "admin1" And txtbPass.Text = "admin1" Or txtbUser.Text = "admin2" And txtbPass.Text = "admin2" Then
             MessageBox.Show("You are now logged in", "Log in Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Form1.Show()
             txtbUser.Clear()
